@@ -11,9 +11,11 @@
 }
 
 body {
-  background-color: #1a1924;
+  background-color: #1a1926;
   font-size: 1.6rem;
   color: #e1e1e6;
+  height: 100vh;
+  overflow: hidden;
 }
 
 body * {
@@ -73,6 +75,17 @@ body * {
   font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: center;
+}
+
+#messages {
+  overflow-y: scroll;
+  background-color: #1a1924;
+  border-radius: 0.5rem;
+  padding-bottom: 2.4rem;
+}
+
+#messages::-webkit-scrollbar {
+  display: none;
 }
 
 .messages {
