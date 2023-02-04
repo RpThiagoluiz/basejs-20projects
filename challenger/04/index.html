@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Challenger</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="top">
+        <div id="user-info">
+          <img
+            src="https://avatars.githubusercontent.com/u/61951747?v=4"
+            alt="Person Image"
+          />
+          <div id="user-status">
+            <strong>Thiago Luiz</strong>
+            <div class="status">online</div>
+          </div>
+        </div>
+        <div id="close-chat">
+          <i class="ph-x"></i>
+        </div>
+      </div>
+      <div id="messages">
+        <div id="last-seen">Today 11:36</div>
+        <div class="messages">
+          <div class="message">
+            <div class="top">Thiago - 11:30</div>
+            <div class="body">Hi, bla bla bla bla</div>
+          </div>
+          <div class="message you">
+            <div class="top">You - 11:34</div>
+            <div class="body">Good evening. Are you ok ?</div>
+          </div>
+          <div class="message">
+            <div class="top">Thiago - 11:36</div>
+            <div class="body">I'm finny thx, and how about you ?</div>
+          </div>
+          <div class="message you">
+            <div class="top">You - 11:44</div>
+            <div class="body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
+              eum maiores sunt, minima, nisi ut molestiae, qui doloribus fuga
+              debitis soluta laudantium incidunt voluptates. Vitae voluptate
+              molestias iste. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Vitae deserunt, voluptates nihil rem sequi deleniti ab.
+              Magni quae excepturi laboriosam cumque, voluptates, culpa, ipsum
+              mollitia tenetur temporibus provident assumenda illum. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Et explicabo dolores
+              magni ducimus vel quasi non autem ut. Maxime labore ipsa natus
+              voluptatem maiores laudantium corrupti perferendis totam sunt
+              beatae.
+            </div>
+          </div>
+        </div>
+      </div>
+      <form id="bottom">
+        <div class="input-wrapper">
+          <input type="text" placeholder="Send your message" />
+          <button type="submit">
+            <i class="ph-paper-plane-right"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
